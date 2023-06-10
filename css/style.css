@@ -915,7 +915,7 @@ img{
     color: var(--main-color);
     
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
