@@ -339,11 +339,16 @@
                 </ul>
             </div>
             <div class="footer-form-wrap">
-                <p class="footer-p">Subscribe</p>
+                <p class="footer-p-input">Subscribe</p>
                 <form class="footer-form">
-
-                        <input type="email" name="email-footer" id="email-footer" class="footer-input" placeholder="E-mail">
-                        <button type="submit" class="btn-footer-form">Subscribe</button>
+                        <label class="footer-label">
+                            <input type="email" name="email-footer" id="email-footer" class="footer-input" placeholder="E-mail">
+                        </label>
+                        <button type="submit" class="btn-footer-form">Subscribe
+                            <svg class='footer-footer-icon' width="24" height="20">
+                                <use href="./images/telegram.svg#icon-telegram"></use>
+                            </svg>
+                        </button>
                 </form>
             </div>
         </div>    
@@ -386,8 +391,8 @@
                     </div>
                 </div>
                 <div class="modal-field-comment">
-                    <label for=" user-comment" class="modal-label">Comment</label>
-                    <textarea name=" user-comment" id=" user-comment" class="modal-comment" placeholder="Text input"></textarea>
+                    <label for="user-comment" class="modal-label">Comment</label>
+                    <textarea name="user-comment" id=" user-comment" class="modal-comment" placeholder="Text input"></textarea>
                 </div>
                 <div class="modal-box-field">
                     <input type="checkbox" name="policy" id="user-privacy" value="true" class="check-input visually-hidden">
