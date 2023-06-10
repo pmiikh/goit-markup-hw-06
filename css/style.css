@@ -448,8 +448,8 @@ body{
     letter-spacing: 0.04em;
     color: var(--customer-color);
 
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 
 }
 
